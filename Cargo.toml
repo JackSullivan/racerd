@@ -1,4 +1,9 @@
 [package]
 name = "racerd"
 version = "0.1.0"
-authors = ["Joe Wilm <joe@jwilm.com>"]
+authors = ["Joe Wilm <joe@jwilm.com>", "John Sullivan <john.t.sullivan@gmail.com>"]
+
+[dependencies]
+
+racer = {git = "http://github.com/phildawes/racer"}
+hyper = "0.6.15"
