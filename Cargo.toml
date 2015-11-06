@@ -3,7 +3,14 @@ name = "racerd"
 version = "0.1.0"
 authors = ["Joe Wilm <joe@jwilm.com>", "John Sullivan <john.t.sullivan@gmail.com>"]
 
+[[bin]]
+name = "racerd-server"
+path = "src/main.rs"
+
 [dependencies]
 
 racer = {git = "http://github.com/phildawes/racer"}
-hyper = "0.6.15"
+hyper = "*"
+serde = "*"
+serde_json = "*"
+serde_macros = "*"
